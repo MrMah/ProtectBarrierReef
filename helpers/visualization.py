@@ -22,14 +22,10 @@ def draw_annotation(dir: str, video_id: int, video_frame: int):
     if len(annotations) == 0:
         plt.imshow(im)
     elif len(annotations) > 0:
-        fig, ax = plt.subplots(len(annotations))
+        fig, ax = plt.subplots()
         for i,annotation in enumerate(annotations):
             rect = Rectangle((annotation['x'], annotation['y']), annotation['width'], annotation['height'], linewidth=1,
                                      edgecolor='r', facecolor="none")
-            if len(annotations)>1:
-                ax[i].imshow(im)
-                ax[i].add_patch(rect)
-            else:
-                ax.imshow(im)
-                ax.add_patch(rect)  
+            ax.add_patch(rect)
+        plt.imshow(im)
     plt.show()
