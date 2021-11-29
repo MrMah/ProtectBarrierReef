@@ -1,0 +1,4 @@
+- [ ] Great branch 'Pytorch YOLO'
+- [ ] Preprocess data helper
+- [ ] MLflow tracking
+- [ ] Train initial Pytorch model
