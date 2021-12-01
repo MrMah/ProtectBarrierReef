@@ -1,4 +1,4 @@
-- [ ] Create branch 'Pytorch YOLO'
-- [ ] Preprocess data helper
-- [ ] MLflow tracking
+- [X] Create branch 'Pytorch YOLO'
+- [X] Preprocess data helper
+- [X] Weights and biases tracking
 - [ ] Train initial Pytorch model
