@@ -1,0 +1,33 @@
+{
+    "os": "Windows-10-10.0.19042-SP0",
+    "python": "3.9.7",
+    "heartbeatAt": "2021-12-03T11:18:24.126792",
+    "startedAt": "2021-12-03T11:18:20.358854",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--img",
+        "640",
+        "--batch",
+        "16",
+        "--epochs",
+        "3",
+        "--data",
+        "datasets/dataset.yaml",
+        "--weights",
+        "yolov5s.pt"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\Lukas Mahieu\\Desktop\\Personal Projects\\ProtectBarrierReef\\yolov5\\train.py",
+    "codePath": "yolov5\\train.py",
+    "git": {
+        "remote": "https://github.com/MrMah/ProtectBarrierReef.git",
+        "commit": "c67e866664b4fd24a3354615b16aa54a899058a7"
+    },
+    "email": "lukas.mahieu@arinti.ai",
+    "root": "C:/Users/Lukas Mahieu/Desktop/Personal Projects/ProtectBarrierReef",
+    "host": "DESKTOP-I2HHIA8",
+    "username": "Lukas Mahieu",
+    "executable": "C:\\Users\\Lukas Mahieu\\anaconda3\\envs\\barrier-reef\\python.exe"
+}
